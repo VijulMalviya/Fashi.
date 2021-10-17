@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashi.</title>
+    <!--    Favicons-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <meta name="msapplication-TileImage" content="">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--    CDN -->
+    <!-- Bootstrap 5.0  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font Awosome 4.7.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animation on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Rimixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--    Stylesheets-->
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="./CSS/Swipper.css">
+
+</head>
+
+<body>
+    <div class="container-fluid  nav">
+        <div class="container">
+            <div class="col-10 mx-auto p-4">
+                <div class="row">
+                    <div class="col-lg-3 col-12 logo">
+                        <h5>Fashi<span>.</span></h5>
+                    </div>
+                    <div class="col-lg-9 col-12 navlinks">
+                        <ul>
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>Collection</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home -->
+    <div class="container-fluid Home">
+        <div class="container">
+            <div class="col-10 mx-auto">
+                <div class="row">
+                    <div class="col-lg-4 col-md-8 col-10 inner-text">
+                        <h6><small>Mens | Womes | Kids</small></h6>
+                        <h1 class="mt-3">Super Friday Sale !!</h1>
+                        <p class="mb-5"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                                reiciendis nam perspiciatis rerum ullam aperiam voluptatem dolore dolores iste
+                                modi.</small></p>
+                        <a href="">Shop Now &nbsp; <i class="ri-arrow-right-line"></i> </a>
+                    </div>
+                </div>
+                <div class="col-2 saleoffer">
+                    <div class="inner-circle">
+                        <h4>SALE</h4>
+                        <h4>50%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  pt-5 pb-5 Department">
+        <div class="container">
+            <div class="row gy-4 gx-4">
+                <div class="col-md-4 col-12 department mens">
+                    <a href="">Men's</a>
+                </div>
+                <div class="col-md-4 col-12 department womens">
+                    <a href="">Women's</a>
+
+                </div>
+                <div class="col-md-4 col-12 department kids">
+                    <a href="">Kid's</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  pt-5 pb-5 Department">
+        <div class="container">
+            <div class="row gy-4 gx-4">
+                <div class="col-lg-3 col-md-4 col-12 collection-large women-large">
+                    <h5>Women's</h5>
+                    <a href="">Discover more</a>
+                </div>
+                <div class="col-lg-9 col-md-8 col-12 women-slider">
+                    <div class="row">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Clothing')"
+                                id="defaultOpen">Clothing</button>
+                            <button class="tablinks" onclick="openCity(event, 'Accessories')">Accessories</button>
+                            <button class="tablinks" onclick="openCity(event, 'Shoes')">Shoes</button>
+                            <button class="tablinks" onclick="openCity(event, 'HandBag')">HandBag</button>
+
+                        </div>
+                        <div id="Clothing" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            </div>
+
+                        </div>
+                        <div id="Accessories" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>
+                        <div id="Shoes" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>
+                        <div id="HandBag" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid dealoftheday">
+        <div class="container">
+            <div class="col-10 mx-auto">
+                <div class="row">
+                    <div class="col-lg-6 ol-md-8 col-12 dealtext">
+                        <h3>Deal of the day</h3>
+                        <div class="deal-line"></div>
+                        <p class="mt-3"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis
+                                quae amet blanditiis quod asperiores temporibus ut magni harum ex.</small></p>
+                        <h4>$23</h4>
+                        <a href="" class="mt-4">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  pt-5 pb-5 Department">
+        <div class="container">
+            <div class="row gy-4 gx-4">
+                <div class="col-lg-3 col-md-4 col-12 collection-large men-large">
+                    <h5>Men's</h5>
+                    <a href="">Discover more</a>
+                </div>
+                <div class="col-lg-9 col-md-8 col-12 men-slider">
+                    <div class="row">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'menClothing')"
+                                id="men">Clothing</button>
+                            <button class="tablinks" onclick="openCity(event, 'menAccessories')">Accessories</button>
+                            <button class="tablinks" onclick="openCity(event, 'menShoes')">Shoes</button>
+                            <button class="tablinks" onclick="openCity(event, 'menHandBag')">HandBag</button>
+
+                        </div>
+                        <div id="menClothing" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            </div>
+
+                        </div>
+                        <div id="menAccessories" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>
+                        <div id="menShoes" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>
+                        <div id="menHandBag" class="tabcontent mt-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard w-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-12">
+                                            <div class="productcard m-4">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+        
+        
+        
+                                </div>
+                            <div class="swiper-pagination"></div>
+
+                            </div>
+
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-5 pb-5 Insta">
+        <div class="row">
+            <div class="col-md-2 col-4 insta p-1">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+            <div class="col-md-2 col-4 insta p-2">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+            <div class="col-md-2 col-4 insta p-3">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+            <div class="col-md-2 col-4 insta p-4">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+            <div class="col-md-2 col-4 insta p-6">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+            <div class="col-md-2 col-4 insta p-5">
+                <a href="">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid pt-5 pb-5 Blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <div class="col-12 Heading">
+                            <div class="heading-text">
+                                <h4>From the Blog</h4>
+                            </div>
+                            <div class="heading-dash">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 gy-5">
+                        <div class="col-md-4 col-12">
+                            <div class="col-11 mx-auto">
+                                <div class="card">
+                                    <img src="./Images/blog-1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p><small><i class="ri-calendar-2-fill"></i>&nbsp;18 OCT 2021 &nbsp; &nbsp; <i
+                                                    class="ri-chat-3-line"></i> &nbsp;3 </small></p>
+                                        <h6 class="card-title">The Best Street Style From London Fashion Week</h6>
+                                        <p class="card-text"><small>Some quick example text to build on the card title
+                                                and make up the bulk of the card's content.</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="col-11 mx-auto">
+                                <div class="card">
+                                    <img src="./Images/blog-3.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p><small><i class="ri-calendar-2-fill"></i>&nbsp;18 OCT 2021 &nbsp; &nbsp; <i
+                                                    class="ri-chat-3-line"></i> &nbsp;3 </small></p>
+                                        <h6 class="card-title">The Best Street Style From London Fashion Week</h6>
+                                        <p class="card-text"><small>Some quick example text to build on the card title
+                                                and make up the bulk of the card's content.</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="col-11 mx-auto">
+                                <div class="card">
+                                    <img src="./Images/blog-2.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p><small><i class="ri-calendar-2-fill"></i>&nbsp;18 OCT 2021 &nbsp; &nbsp; <i
+                                                    class="ri-chat-3-line"></i> &nbsp;3 </small></p>
+                                        <h6 class="card-title">The Best Street Style From London Fashion Week</h6>
+                                        <p class="card-text"><small>Some quick example text to build on the card title
+                                                and make up the bulk of the card's content.</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  pt-5 pb-5 service">
+        <div class="container">
+            <div class="col-10 mx-auto">
+                <div class="row gy-3">
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto service-box">
+                        <h6><i class="ri-truck-line"></i></h6>
+                        <div class="servicetext">
+                            <p><b>FREE SHIPPING</b></p>
+                            <p><small>For all order over 99$</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto service-box">
+                        <h6><i class="ri-time-line"></i></h6>
+                        <div class="servicetext">
+                            <p><b>DELIVERY ON TIME
+                                </b></p>
+                            <p><small>If good have prolems</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto service-box">
+                        <h6><i class="ri-secure-payment-line"></i></h6>
+                        <div class="servicetext">
+                            <p><b>SECURE PAYMENT
+                                </b></p>
+                            <p><small>100% secure payment</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="contanier-fluid Company">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-1.webp" alt="">
+                        </div>
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-2.webp" alt="">
+                        </div>
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-3.webp" alt="">
+                        </div>
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-4.webp" alt="">
+                        </div>
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-5.webp" alt="">
+                        </div>
+                        <div class="col-lg-2  col-4   Company-logo">
+                            <img src="./Images/logo-1.webp" alt="">
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="cotainer-fluid pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-4 col-6">
+                            <h6>Fashi <span>.</span></h6>
+                            <ul class="mt-4">
+                                <li><a href="">Address : 60-49 Road 11378 New York</a></li>
+                                <li><a href="">Phone: +65 11.188.888</a></li>
+                                <li><a href="">Email: hello@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2  col-6">
+                            <h6>Information</h6>
+                            <ul class="mt-4">
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Checkout</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <h6>My Account</h6>
+                            <ul class="mt-4">
+                                <li><a href="">My Account</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Shopping Cart</a></li>
+                                <li><a href="">Shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <h6>Join Us Now</h6>
+                            <ul class="mt-4">
+                                <li><a href=""><i class="ri-facebook-line"></i> &nbsp;&nbsp; Facebook</a></li>
+                                <li><a href=""><i class="ri-instagram-line"></i> &nbsp;&nbsp; Instagram</a></li>
+                                <li><a href=""><i class="ri-twitter-line"></i> &nbsp;&nbsp; Twitter</a></li>
+                                <li><a href=""><i class="ri-whatsapp-line"></i> &nbsp;&nbsp; Whatsapp</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <p class="text-muted"><small>Copyright ©2021 All rights reserved | This template is made by
+                                Vijul Malviya</small></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap 5.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Animation on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/Swiper.js"></script>
+
+</body>
+
+</html>

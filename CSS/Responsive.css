@@ -1,0 +1,59 @@
+@media screen and (max-width:576px) {
+    .insta{
+        height: 20vh;
+    }
+    .dealoftheday{
+        height: 35vh;
+    }
+    .collection-large{
+        height: 30vh;
+    }
+    .department{
+        height: 30vh;}
+        .Home .inner-text{
+            position: absolute;
+            top: 65%;
+        }
+        .Home .saleoffer{
+            position: absolute;
+            top: 25%;
+            left: 50%;
+        }
+        .productcard{
+            height: 40vh;
+        }
+        .tabcontent {
+            height: 50vh;
+          }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .insta{
+        height: 15vh;
+    }
+    .dealoftheday{
+        height: 25vh;
+    }
+    .collection-large{
+        height: 40vh;
+    }
+    .department{
+        height: 20vh;}
+        .Home .inner-text{
+            position: absolute;
+            top: 65%;
+        }
+        .Home .saleoffer{
+            position: absolute;
+            top: 25%;
+            left: 50%;
+        }
+        .productcard{
+            height: 30vh;
+        }
+        .tabcontent {
+            height: 37vh;
+          }
+    
+}
