@@ -1,7 +1,7 @@
 AOS.init();
 
 
-function openCity(evt, cityName) {
+function women(evt, catname) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -11,10 +11,14 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(catname).style.display = "block";
     evt.currentTarget.className += " active";
   }
   
   // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
-  document.getElementById("men").click();
+
+
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("Women").click();
+

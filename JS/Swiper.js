@@ -1,5 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
+    
     spaceBetween: 30,
     slidesPerView: 3,
     pagination: {
@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper", {
   var mq = window.matchMedia( "(max-width: 992px)" );
   if (mq.matches) {
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: "auto",
+    
         spaceBetween: 30,
         slidesPerView: 2,
         pagination: {
@@ -35,3 +35,6 @@ var swiper = new Swiper(".mySwiper", {
           autoplay: true
       });
    }
+
+
+   
