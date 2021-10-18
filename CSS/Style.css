@@ -9,17 +9,41 @@
   --yellow: #e7ab3c;
 }
 p {
-  font-size: small;
+  font-size : small;
 }
 a {
   text-decoration: none;
+}
+.uppernav p{
+  margin-bottom: 0;
+}
+.uppernav,.cart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.cart i{
+  padding-right: 1rem;
 }
 
 .nav {
   background-color: #252525;
   color: white;
+  position: absolute;
+  z-index: 999;
 }
-
+.nav .logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: none;
+}
+.nav .logo .menu #bar{ 
+  margin-left: 1rem;
+}
 .nav .logo h5 {
   font-weight: 900;
   margin: 0;
@@ -71,7 +95,7 @@ a {
 }
 .Home .saleoffer {
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 50%;
   width: 8rem;
   height: 8rem;

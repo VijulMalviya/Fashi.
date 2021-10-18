@@ -25,7 +25,26 @@
         .tabcontent {
             height: 50vh;
           }
-    
+          .nav .navlinks ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+
+          }
+          .nav .navlinks{
+              display: none;
+          }
+          .nav .navlinks ul li {
+            list-style: none;
+            font-size: small;
+            font-weight: 700;
+            padding-top: 3rem;
+          }
+          .menu{
+            display: initial;
+          }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {

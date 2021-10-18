@@ -1,5 +1,13 @@
 AOS.init();
 
+$(document).ready(function(){
+  $("#bar").click(function(){
+    $(".navlinks").slideToggle("slow");
+  });
+});
+
+
+
 
 function women(evt, catname) {
     var i, tabcontent, tablinks;
@@ -21,4 +29,3 @@ function women(evt, catname) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("Women").click();
-
